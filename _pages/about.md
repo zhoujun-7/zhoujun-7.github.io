@@ -3,6 +3,8 @@ layout: about
 title: Jun Zhou
 permalink: /
 subtitle: PhD Student, China University of Geosciences；Visiting PhD Student, University of Alberta
+nav: true
+nav_order: 1
 
 profile:
   align: right
@@ -147,3 +149,7 @@ A complete list is available on the [Google Scholar](/publications/) page. Selec
 - C++ Programming, 2020
 <!-- ## 📢 News
 See the [News](/news/) page for updates.   -->
+
+## Language
+- [English Version](/about/)
+- [中文版本](/about_zh/)
