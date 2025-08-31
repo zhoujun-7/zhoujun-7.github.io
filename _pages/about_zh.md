@@ -125,18 +125,13 @@ h2:first-of-type {
 - C++程序设计, 2019
 - C++程序设计, 2020
 
-## 语言切换 / Language Switch
 <div class="language-switcher">
-  <h3>选择语言 / Choose Language</h3>
   <div class="language-buttons">
     <a href="/about/" class="language-btn">
-      <span class="flag">🇺🇸</span>English Version
+      <span class="flag">🇺🇸</span>English
     </a>
     <a href="/about_zh/" class="language-btn">
-      <span class="flag">🇨🇳</span>中文版本
+      <span class="flag">🇨🇳</span>中文
     </a>
   </div>
-  <p class="description">
-    点击上方按钮切换语言 / Click the buttons above to switch between languages
-  </p>
 </div>

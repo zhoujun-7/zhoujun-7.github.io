@@ -152,18 +152,13 @@ A complete list is available on the [Google Scholar](/publications/) page. Selec
 <!-- ## 📢 News
 See the [News](/news/) page for updates.   -->
 
-## Language / 语言
 <div class="language-switcher">
-  <h3>Choose Language / 选择语言</h3>
   <div class="language-buttons">
     <a href="/about/" class="language-btn">
-      <span class="flag">🇺🇸</span>English Version
+      <span class="flag">🇺🇸</span>English
     </a>
     <a href="/about_zh/" class="language-btn">
-      <span class="flag">🇨🇳</span>中文版本
+      <span class="flag">🇨🇳</span>中文
     </a>
   </div>
-  <p class="description">
-    Click the buttons above to switch between languages / 点击上方按钮切换语言
-  </p>
 </div>

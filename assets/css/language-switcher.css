@@ -2,21 +2,13 @@
 .language-switcher {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 25px;
+  padding: 20px;
   border-radius: 15px;
-  margin: 30px 0;
+  margin: 20px 0;
   text-align: center;
   box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-}
-
-.language-switcher h3 {
-  margin: 0 0 20px 0;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .language-switcher .language-buttons {
@@ -24,7 +16,6 @@
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  margin-bottom: 15px;
 }
 
 .language-switcher .language-btn {
@@ -73,12 +64,7 @@
   font-size: 1.2em;
 }
 
-.language-switcher .description {
-  margin: 15px 0 0 0;
-  opacity: 0.9;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
+
 
 /* Responsive design */
 @media (max-width: 768px) {
