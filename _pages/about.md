@@ -1,8 +1,6 @@
 ---
 layout: about
-title: Jun Zhou
 permalink: /
-subtitle: PhD Student, China University of Geosciences；Visiting PhD Student, University of Alberta
 nav: true
 nav_order: 1
 
@@ -90,17 +88,11 @@ h2:first-of-type {
 }
 </style>
 
-## Biography
-
 I am a Ph.D. student at **China University of Geosciences**, advised by <a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>Prof. Chi Xu</b></a>. I am also a visiting Ph.D. student in <a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>Vision and Learning Lab</b></a> at the **University of Alberta**, supervised by <a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>Prof. Li Cheng</b></a>.
-
-## Research Interests
 
 - 3D Computer Vision & Hand–Object Interaction (HOI)
 - Physics-aware Perception & Contact/Force Prediction
 - Robotics Grasping
-
-## Publications
 
 A complete list is available on the [Google Scholar](/publications/) page. Selected works are highlighted below.
 
@@ -131,19 +123,13 @@ A complete list is available on the [Google Scholar](/publications/) page. Selec
        </div>
    </div>
 
-## Contest
-
 - Placed 2nd in <a href="https://competitions.codalab.org/competitions/20913#results" target="_blank"><b>HANDS19 challenge task</b></a> (ECCV2020 Workshop on Observing and Understanding Hands in Action)
-
-## Services
 
 **Reviewer:**
 
 - IEEE Transactions on Multimedia (TMM)
 - International Joint Conference on Artificial Intelligence (IJCAI) 2025
 - Association for the Advancement of Artificial Intelligence (AAAI) 2026
-
-**Teaching Assistant:**
 
 - C++ Programming, 2019
 - C++ Programming, 2020
