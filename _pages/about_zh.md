@@ -108,14 +108,3 @@ h2:first-of-type {
 
 - C++程序设计, 2019
 - C++程序设计, 2020
-
-<div class="language-switcher">
-  <div class="language-buttons">
-    <a href="/about/" class="language-btn">
-      <span class="flag">🇺🇸</span>English
-    </a>
-    <a href="/about_zh/" class="language-btn">
-      <span class="flag">🇨🇳</span>中文
-    </a>
-  </div>
-</div>

@@ -135,14 +135,3 @@ A complete list is available on the [Google Scholar](/publications/) page. Selec
 - C++ Programming, 2020
 <!-- ## 📢 News
 See the [News](/news/) page for updates.   -->
-
-<div class="language-switcher">
-  <div class="language-buttons">
-    <a href="/about/" class="language-btn">
-      <span class="flag">🇺🇸</span>English
-    </a>
-    <a href="/about_zh/" class="language-btn">
-      <span class="flag">🇨🇳</span>中文
-    </a>
-  </div>
-</div>
