@@ -9,10 +9,7 @@ profile:
   image: prof_pic_zj.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>中国地质大学博士研究生</p>
-    <p>阿尔伯塔大学访问博士生</p>
-    <p>研究方向：3D计算机视觉</p>
-    <p>手-物交互、物理感知</p>
+    <p>武汉，中国</p>
 social: false
 announcements:
   enabled: false
@@ -66,11 +63,16 @@ h2:first-of-type {
 
 我是**中国地质大学**的博士研究生，导师是<a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>徐迟教授</b></a>。同时，我也是**阿尔伯塔大学**<a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>视觉与学习实验室</b></a>的访问博士生，在<a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>程立教授</b></a>的指导下进行研究。
 
-- 3D计算机视觉与手-物交互（HOI）
-- 物理感知与接触/力预测
+## 研究兴趣
+
+- 3D计算机视觉
+- 手物交互（HOI）
+- 物理感知与接触
 - 机器人抓取
 
-完整列表请访问 [Google Scholar](/publications/) 页面。以下是部分代表性工作：
+## 研究成果
+
+完整列表请访问 [谷歌学术](/publications/) 页面。以下是部分代表性工作：
 
 <div class="row mb-4">
      <div class="col-md-6">
@@ -99,13 +101,19 @@ h2:first-of-type {
        </div>
    </div>
 
+## 竞赛
+
 - 在<a href="https://competitions.codalab.org/competitions/20919#results" target="_blank"><b>HANDS19挑战赛</b></a>（ECCV2020手部动作观察与理解研讨会）中获得第二名
+
+## 学术服务
 
 **审稿人：**
 
 - IEEE Transactions on Multimedia (TMM)
 - International Joint Conference on Artificial Intelligence (IJCAI) 2025
 - Association for the Advancement of Artificial Intelligence (AAAI) 2026
+
+**助教：**
 
 - C++程序设计, 2019
 - C++程序设计, 2020
