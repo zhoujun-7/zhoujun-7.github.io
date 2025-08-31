@@ -3,21 +3,21 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-jun-zhou",
-    title: "Jun Zhou",
+    id: "nav-",
+    title: "",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-jun-zhou",
-          title: "Jun Zhou",
+  },{id: "nav-",
+          title: "",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/";
           },
-        },{id: "nav-关于我",
-          title: "关于我",
+        },{id: "nav-",
+          title: "",
           description: "",
           section: "Navigation",
           handler: () => {
