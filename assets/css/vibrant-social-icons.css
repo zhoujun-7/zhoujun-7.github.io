@@ -47,12 +47,12 @@
 
 /* Hover effects with bouncy animation */
 .social .contact-icons a:hover i::before {
-  filter: drop-shadow(0 6px 12px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
 }
 
 /* Optional: Add a colorful background on hover */
 .social .contact-icons a:hover {
-  background: linear-gradient(45deg, rgba(255,255,255,0.2), rgba(255,255,255,0.1));
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
   border-radius: 50%;
   padding: 10px;
   margin: -10px;

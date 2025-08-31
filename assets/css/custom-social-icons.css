@@ -47,12 +47,12 @@
 
 /* Hover effects with smooth transitions and subtle shadows */
 .social .contact-icons a:hover i::before {
-  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
 }
 
 /* Optional: Add a subtle background on hover */
 .social .contact-icons a:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   padding: 8px;
   margin: -8px;
@@ -63,7 +63,7 @@
   .social .contact-icons a[title="GitHub"] i::before {
     color: #cccccc !important;
   }
-  
+
   .social .contact-icons a[title="GitHub"]:hover i::before {
     color: #ffffff !important;
   }
