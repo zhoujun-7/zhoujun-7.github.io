@@ -34,7 +34,7 @@
 }
 
 .language-switcher .language-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -64,24 +64,22 @@
   font-size: 1.2em;
 }
 
-
-
 /* Responsive design */
 @media (max-width: 768px) {
   .language-switcher {
     padding: 20px;
     margin: 20px 0;
   }
-  
+
   .language-switcher h3 {
     font-size: 1.3rem;
     margin-bottom: 15px;
   }
-  
+
   .language-switcher .language-buttons {
     gap: 15px;
   }
-  
+
   .language-switcher .language-btn {
     padding: 12px 24px;
     font-size: 1rem;
@@ -94,7 +92,7 @@
     align-items: center;
     gap: 12px;
   }
-  
+
   .language-switcher .language-btn {
     width: 100%;
     max-width: 280px;

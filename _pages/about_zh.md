@@ -65,8 +65,6 @@ h2:first-of-type {
 }
 </style>
 
-
-
 ## 个人简介
 
 我是**中国地质大学**的博士研究生，导师是<a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>徐迟教授</b></a>。同时，我也是**阿尔伯塔大学**<a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>视觉与学习实验室</b></a>的访问博士生，在<a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>程立教授</b></a>的指导下进行研究。

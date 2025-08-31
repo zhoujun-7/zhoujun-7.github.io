@@ -90,8 +90,6 @@ h2:first-of-type {
 }
 </style>
 
-
-
 ## Biography
 
 I am a Ph.D. student at **China University of Geosciences**, advised by <a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>Prof. Chi Xu</b></a>. I am also a visiting Ph.D. student in <a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>Vision and Learning Lab</b></a> at the **University of Alberta**, supervised by <a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>Prof. Li Cheng</b></a>.
