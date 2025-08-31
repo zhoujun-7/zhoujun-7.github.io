@@ -1,5 +1,6 @@
 ---
 layout: about
+title: 首页
 permalink: /about_zh/
 nav: true
 nav_order: 1
