@@ -35,6 +35,13 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        
+        <!-- Social icons below profile image -->
+        {% if page.social %}
+          <div class="profile-social mt-3">
+            {% include social.liquid %}
+          </div>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -62,16 +69,19 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+      
+      <!-- Manual selected publications -->
+      <h3>Selected Publications</h3>
+      <ol>
+        <li><strong>Zhou, J.</strong>, Xu, C., Ge, Y., & Cheng, L. (2024). Realistic Depth Image Synthesis for 3D Hand Pose Estimation. <em>IEEE Transactions on Multimedia</em>, 26, 5246-5256. <a href="https://doi.org/10.1109/TMM.2023.3330522">DOI: 10.1109/TMM.2023.3330522</a></li>
+        
+        <li><strong>Zhou, J.</strong>, Xu, C., & Cheng, L. (2025). Hand Gesture Recognition From an Open-Set Perspective. <em>IEEE Transactions on Multimedia</em>, 27, 4181-4192. <a href="https://doi.org/10.1109/TMM.2025.3535363">DOI: 10.1109/TMM.2025.3535363</a></li>
+        
+        <li>Xu, C., <strong>Zhou, J.</strong>, Cai, W., Jiang, Y., Li, Y., & Liu, Y. (2020). Robust 3D Hand Detection from a Single RGB-D Image in Unconstrained Environments. <em>Sensors</em>, 20(21), 6360. <a href="https://doi.org/10.3390/s20216360">DOI: 10.3390/s20216360</a></li>
+      </ol>
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+    <!-- Social icons are now displayed in profile section above -->
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}

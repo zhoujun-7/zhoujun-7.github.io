@@ -1,34 +1,145 @@
 ---
 layout: about
-title: about
+title: Jun Zhou
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student, China University of Geosciences；Visiting PhD Student, University of Alberta
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic_zj.jpg
+  image_circular: true # 是否裁剪成圆形头像
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Edmonton, Alberta, Canada</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<style>
+.profile {
+  margin-top: -90px !important;
+}
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+.profile-social {
+  text-align: center;
+}
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+.profile-social a {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 1.2em;
+  transition: all 0.3s ease;
+}
+
+.profile-social a:hover {
+  transform: translateY(-2px);
+}
+
+/* 为不同社交平台设置品牌色彩 */
+.profile-social a[title="email"] {
+  color: #EA4335;
+}
+
+.profile-social a[title="GitHub"] {
+  color: #333;
+}
+
+.profile-social a[title="LinkedIn"] {
+  color: #0077B5;
+}
+
+.profile-social a[title="Google Scholar"] {
+  color: #4285F4;
+}
+
+.profile-social a:hover {
+  opacity: 0.8;
+}
+
+.profile-social i {
+  width: 20px;
+  text-align: center;
+}
+
+/* 增加标题之间的间距 */
+h2 {
+  margin-top: 2.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+h3 {
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* 为第一个h2标题减少上边距 */
+h2:first-of-type {
+  margin-top: 1.5rem !important;
+}
+</style>
+
+## Biography
+I am a Ph.D. student at **China University of Geosciences**, advised by <a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>Prof. Chi Xu</b></a>.  I am also a visiting Ph.D. student in <a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>Vision and Learning Lab</b></a> at the **University of Alberta**, supervised by <a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>Prof. Li Cheng</b></a>. 
+
+
+## Research Interests
+- 3D Computer Vision & Hand–Object Interaction (HOI)  
+- Physics-aware Perception & Contact/Force Prediction  
+- Robotics Grasping
+
+## Publications
+A complete list is available on the [Google Scholar](/publications/) page. Selected works are highlighted below.  
+
+<div class="row mb-4">
+     <div class="col-md-6">
+       <img src="{{ site.baseurl }}/assets/img/project/2023-TMM.png" alt="Realistic Depth Image Synthesis for 3D Hand Pose Estimation" class="img-fluid rounded shadow-sm">
+     </div>
+     <div class="col-md-6">
+         <strong>Jun Zhou</strong>, Chi Xu, Yuting Ge, Li Cheng. <a href="https://doi.org/10.1109/TMM.2023.3330522" target="_blank">Realistic Depth Image Synthesis for 3D Hand Pose Estimation</a>. <em>IEEE Transactions on Multimedia</em>, 2024
+       </div>
+   </div>
+
+<div class="row mb-4">
+     <div class="col-md-6">
+       <img src="{{ site.baseurl }}/assets/img/project/2025-TMM.png" alt="Hand Gesture Recognition From an Open-Set Perspective" class="img-fluid rounded shadow-sm">
+     </div>
+            <div class="col-md-6">
+         <strong>Jun Zhou</strong>, Chi Xu, Li Cheng. <a href="https://doi.org/10.1109/TMM.2025.3535363" target="_blank">Hand Gesture Recognition From an Open-Set Perspective</a>. <em>IEEE Transactions on Multimedia</em>, 2025
+       </div>
+   </div>
+
+<div class="row mb-4">
+     <div class="col-md-6">
+       <img src="{{ site.baseurl }}/assets/img/project/2020-Sensors.png" alt="Robust 3D Hand Detection from a Single RGB-D Image" class="img-fluid rounded shadow-sm">
+     </div>
+            <div class="col-md-6">
+         Chi Xu, <strong>Jun Zhou</strong>, Wei Cai, Yuxin Jiang, Yuxin Li, Yuxin Liu. <a href="https://doi.org/10.3390/s20216360" target="_blank">Robust 3D Hand Detection from a Single RGB-D Image in Unconstrained Environments</a>. <em>Sensors</em>, 2020
+       </div>
+   </div>
+
+
+## Contest 
+- Placed 2nd in <a href="https://competitions.codalab.org/competitions/20913#results" target="_blank"><b>HANDS19 challenge task</b></a> (ECCV2020 Workshop on Observing and Understanding Hands in Action)
+
+## Services
+**Reviewer:**
+- IEEE Transactions on Multimedia (TMM)
+- International Joint Conference on Artificial Intelligence (IJCAI) 2025
+- Association for the Advancement of Artificial Intelligence (AAAI) 2026
+
+**Teaching Assistant:**
+- C++ Programming, 2019
+- C++ Programming, 2020
+<!-- ## 📢 News
+See the [News](/news/) page for updates.   -->
+
