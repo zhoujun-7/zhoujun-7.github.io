@@ -66,14 +66,17 @@ h2:first-of-type {
 </style>
 
 ## 个人简介
+
 我是**中国地质大学**的博士研究生，导师是<a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>徐驰教授</b></a>。同时，我也是**阿尔伯塔大学**<a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>视觉与学习实验室</b></a>的访问博士生，在<a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>李成教授</b></a>的指导下进行研究。
 
 ## 研究兴趣
+
 - 3D计算机视觉与手-物交互（HOI）
 - 物理感知与接触/力预测
 - 机器人抓取
 
 ## 发表论文
+
 完整列表请访问 [Google Scholar](/publications/) 页面。以下是部分代表性工作：
 
 <div class="row mb-4">
@@ -104,18 +107,23 @@ h2:first-of-type {
    </div>
 
 ## 竞赛获奖
+
 - 在<a href="https://competitions.codalab.org/competitions/20913#results" target="_blank"><b>HANDS19挑战赛</b></a>（ECCV2020手部动作观察与理解研讨会）中获得第二名
 
 ## 学术服务
+
 **审稿人：**
+
 - IEEE多媒体汇刊（TMM）
 - 国际人工智能联合会议（IJCAI）2025
 - 美国人工智能协会年会（AAAI）2026
 
 **助教：**
+
 - C++程序设计, 2019
 - C++程序设计, 2020
 
 ## 语言切换
+
 - [English Version](/about/)
 - [中文版本](/about_zh/)

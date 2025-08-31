@@ -5,9 +5,9 @@
 
 title: blank # the website title (if blank, full name will be used instead
 first_name: 俊
-middle_name: 
+middle_name:
 last_name: 周
-contact_note: 
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   中国地质大学博士研究生，阿尔伯塔大学访问博士生。研究方向包括3D计算机视觉、手-物交互和物理感知生成建模。
 footer_text: >
@@ -17,7 +17,7 @@ lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zhoujun-7.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
