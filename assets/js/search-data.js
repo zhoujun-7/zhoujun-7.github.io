@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/";
           },
-        },{id: "nav-首页",
-          title: "首页",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/about_zh/";
-          },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
