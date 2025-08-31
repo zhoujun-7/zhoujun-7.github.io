@@ -2,7 +2,7 @@
 layout: about
 title: 首页
 permalink: /about_zh/
-nav: true
+nav: false
 nav_order: 1
 profile:
   align: right

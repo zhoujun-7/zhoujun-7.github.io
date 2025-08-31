@@ -56,6 +56,13 @@
             </a>
           </li>
 
+          <!-- Language Switcher -->
+          <li class="nav-item">
+            <div class="nav-link">
+              <a href="/about/" class="text-decoration-none">English</a> <a href="/about_zh/" class="text-decoration-none">中文</a>
+            </div>
+          </li>
+
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
