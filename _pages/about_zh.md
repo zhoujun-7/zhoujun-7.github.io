@@ -14,11 +14,11 @@ profile:
     <p>阿尔伯塔大学访问博士生</p>
     <p>研究方向：3D计算机视觉</p>
     <p>手-物交互、物理感知</p>
-social: true
+social: false
 announcements:
-  enabled: true
-selected_papers: true
-latest_posts: true
+  enabled: false
+selected_papers: false
+latest_posts: false
 ---
 
 <style>
@@ -65,9 +65,11 @@ h2:first-of-type {
 }
 </style>
 
+
+
 ## 个人简介
 
-我是**中国地质大学**的博士研究生，导师是<a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>徐驰教授</b></a>。同时，我也是**阿尔伯塔大学**<a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>视觉与学习实验室</b></a>的访问博士生，在<a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>李成教授</b></a>的指导下进行研究。
+我是**中国地质大学**的博士研究生，导师是<a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>徐迟教授</b></a>。同时，我也是**阿尔伯塔大学**<a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>视觉与学习实验室</b></a>的访问博士生，在<a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>程立教授</b></a>的指导下进行研究。
 
 ## 研究兴趣
 
@@ -81,28 +83,28 @@ h2:first-of-type {
 
 <div class="row mb-4">
      <div class="col-md-6">
-       <img src="{{ site.baseurl }}/assets/img/project/2023-TMM.png" alt="3D手部姿态估计的真实深度图像合成" class="img-fluid rounded shadow-sm">
+       <img src="{{ site.baseurl }}/assets/img/project/2023-TMM.png" alt="Realistic Depth Image Synthesis for 3D Hand Pose Estimation" class="img-fluid rounded shadow-sm">
      </div>
      <div class="col-md-6">
-         <strong>周俊</strong>, 徐驰, 葛玉婷, 李成. <a href="https://doi.org/10.1109/TMM.2023.3330522" target="_blank">3D手部姿态估计的真实深度图像合成</a>. <em>IEEE多媒体汇刊</em>, 2024
+         <strong>Jun Zhou</strong>, Chi Xu, Yuting Ge, Li Cheng. <a href="https://doi.org/10.1109/TMM.2023.3330522" target="_blank">Realistic Depth Image Synthesis for 3D Hand Pose Estimation</a>. <em>IEEE Transactions on Multimedia</em>, 2024
        </div>
    </div>
 
 <div class="row mb-4">
      <div class="col-md-6">
-       <img src="{{ site.baseurl }}/assets/img/project/2025-TMM.png" alt="开放集视角下的手势识别" class="img-fluid rounded shadow-sm">
+       <img src="{{ site.baseurl }}/assets/img/project/2025-TMM.png" alt="Hand Gesture Recognition From an Open-Set Perspective" class="img-fluid rounded shadow-sm">
      </div>
             <div class="col-md-6">
-         <strong>周俊</strong>, 徐驰, 李成. <a href="https://doi.org/10.1109/TMM.2025.3535363" target="_blank">开放集视角下的手势识别</a>. <em>IEEE多媒体汇刊</em>, 2025
+         <strong>Jun Zhou</strong>, Chi Xu, Li Cheng. <a href="https://doi.org/10.1109/TMM.2025.3535363" target="_blank">Hand Gesture Recognition From an Open-Set Perspective</a>. <em>IEEE Transactions on Multimedia</em>, 2025
        </div>
    </div>
 
 <div class="row mb-4">
      <div class="col-md-6">
-       <img src="{{ site.baseurl }}/assets/img/project/2020-Sensors.png" alt="单张RGB-D图像的无约束环境3D手部检测" class="img-fluid rounded shadow-sm">
+       <img src="{{ site.baseurl }}/assets/img/project/2020-Sensors.png" alt="Robust 3D Hand Detection from a Single RGB-D Image" class="img-fluid rounded shadow-sm">
      </div>
             <div class="col-md-6">
-         徐驰, <strong>周俊</strong>, 蔡伟, 姜宇新, 李宇新, 刘宇新. <a href="https://doi.org/10.3390/s20216360" target="_blank">无约束环境下单张RGB-D图像的鲁棒3D手部检测</a>. <em>传感器</em>, 2020
+         Chi Xu, <strong>Jun Zhou</strong>, Wei Cai, Yuxin Jiang, Yuxin Li, Yuxin Liu. <a href="https://doi.org/10.3390/s20216360" target="_blank">Robust 3D Hand Detection from a Single RGB-D Image in Unconstrained Environments</a>. <em>Sensors</em>, 2020
        </div>
    </div>
 
@@ -114,16 +116,27 @@ h2:first-of-type {
 
 **审稿人：**
 
-- IEEE多媒体汇刊（TMM）
-- 国际人工智能联合会议（IJCAI）2025
-- 美国人工智能协会年会（AAAI）2026
+- IEEE Transactions on Multimedia (TMM)
+- International Joint Conference on Artificial Intelligence (IJCAI) 2025
+- Association for the Advancement of Artificial Intelligence (AAAI) 2026
 
 **助教：**
 
 - C++程序设计, 2019
 - C++程序设计, 2020
 
-## 语言切换
-
-- [English Version](/about/)
-- [中文版本](/about_zh/)
+## 语言切换 / Language Switch
+<div class="language-switcher">
+  <h3>选择语言 / Choose Language</h3>
+  <div class="language-buttons">
+    <a href="/about/" class="language-btn">
+      <span class="flag">🇺🇸</span>English Version
+    </a>
+    <a href="/about_zh/" class="language-btn">
+      <span class="flag">🇨🇳</span>中文版本
+    </a>
+  </div>
+  <p class="description">
+    点击上方按钮切换语言 / Click the buttons above to switch between languages
+  </p>
+</div>

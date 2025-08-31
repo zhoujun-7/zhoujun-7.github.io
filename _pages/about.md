@@ -90,6 +90,8 @@ h2:first-of-type {
 }
 </style>
 
+
+
 ## Biography
 
 I am a Ph.D. student at **China University of Geosciences**, advised by <a href="http://grzy.cug.edu.cn/xuchi/zh_CN/index.htm" target="_blank"><b>Prof. Chi Xu</b></a>. I am also a visiting Ph.D. student in <a href="https://vision-and-learning-lab-ualberta.github.io/" target="_blank"><b>Vision and Learning Lab</b></a> at the **University of Alberta**, supervised by <a href="https://www.ece.ualberta.ca/~lcheng5/" target="_blank"><b>Prof. Li Cheng</b></a>.
@@ -150,7 +152,18 @@ A complete list is available on the [Google Scholar](/publications/) page. Selec
 <!-- ## 📢 News
 See the [News](/news/) page for updates.   -->
 
-## Language
-
-- [English Version](/about/)
-- [中文版本](/about_zh/)
+## Language / 语言
+<div class="language-switcher">
+  <h3>Choose Language / 选择语言</h3>
+  <div class="language-buttons">
+    <a href="/about/" class="language-btn">
+      <span class="flag">🇺🇸</span>English Version
+    </a>
+    <a href="/about_zh/" class="language-btn">
+      <span class="flag">🇨🇳</span>中文版本
+    </a>
+  </div>
+  <p class="description">
+    Click the buttons above to switch between languages / 点击上方按钮切换语言
+  </p>
+</div>
