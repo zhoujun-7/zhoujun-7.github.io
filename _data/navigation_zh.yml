@@ -1,0 +1,48 @@
+# Chinese navigation configuration
+# 中文导航配置
+
+# Main navigation items
+# 主导航项目
+main:
+  - title: "首页"
+    url: "/about_zh/"
+    description: "个人主页"
+  - title: "博客"
+    url: "/blog/"
+    description: "最新文章"
+  - title: "论文"
+    url: "/publications/"
+    description: "发表论文"
+  - title: "项目"
+    url: "/projects/"
+    description: "研究项目"
+  - title: "代码库"
+    url: "/repositories/"
+    description: "GitHub 代码"
+  - title: "简历"
+    url: "/cv/"
+    description: "个人简历"
+  - title: "教学"
+    url: "/teaching/"
+    description: "教学经历"
+  - title: "团队"
+    url: "/profiles/"
+    description: "团队成员"
+
+# Footer navigation
+# 页脚导航
+footer:
+  - title: "关于"
+    url: "/about_zh/"
+  - title: "博客"
+    url: "/blog/"
+  - title: "论文"
+    url: "/publications/"
+  - title: "项目"
+    url: "/projects/"
+  - title: "简历"
+    url: "/cv/"
+  - title: "教学"
+    url: "/teaching/"
+  - title: "团队"
+    url: "/profiles/"
