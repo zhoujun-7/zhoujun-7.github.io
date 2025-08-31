@@ -2,7 +2,19 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
+  <!-- Language Switcher at the top -->
+  <div class="language-switcher" style="margin-bottom: 30px;">
+    <div class="language-buttons">
+      <a href="/about/" class="language-btn">
+        <span class="flag">🇺🇸</span>English
+      </a>
+      <a href="/about_zh/" class="language-btn">
+        <span class="flag">🇨🇳</span>中文
+      </a>
+    </div>
+  </div>
+
+  <header class="post-header" style="display: none;">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
@@ -16,7 +28,7 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="display: none;">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -60,31 +72,33 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <div style="display: none;">
+        <h2>
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        </h2>
+        {% include selected_papers.liquid %}
 
-      <!-- Manual selected publications -->
-      <h3>Selected Publications</h3>
-      <ol>
-        <li>
-          <strong>Zhou, J.</strong>, Xu, C., Ge, Y., & Cheng, L. (2024). Realistic Depth Image Synthesis for 3D Hand Pose Estimation.
-          <em>IEEE Transactions on Multimedia</em>, 26, 5246-5256.
-          <a href="https://doi.org/10.1109/TMM.2023.3330522">DOI: 10.1109/TMM.2023.3330522</a>
-        </li>
+        <!-- Manual selected publications -->
+        <h3>Selected Publications</h3>
+        <ol>
+          <li>
+            <strong>Zhou, J.</strong>, Xu, C., Ge, Y., & Cheng, L. (2024). Realistic Depth Image Synthesis for 3D Hand Pose Estimation.
+            <em>IEEE Transactions on Multimedia</em>, 26, 5246-5256.
+            <a href="https://doi.org/10.1109/TMM.2023.3330522">DOI: 10.1109/TMM.2023.3330522</a>
+          </li>
 
-        <li>
-          <strong>Zhou, J.</strong>, Xu, C., & Cheng, L. (2025). Hand Gesture Recognition From an Open-Set Perspective.
-          <em>IEEE Transactions on Multimedia</em>, 27, 4181-4192.
-          <a href="https://doi.org/10.1109/TMM.2025.3535363">DOI: 10.1109/TMM.2025.3535363</a>
-        </li>
+          <li>
+            <strong>Zhou, J.</strong>, Xu, C., & Cheng, L. (2025). Hand Gesture Recognition From an Open-Set Perspective.
+            <em>IEEE Transactions on Multimedia</em>, 27, 4181-4192.
+            <a href="https://doi.org/10.1109/TMM.2025.3535363">DOI: 10.1109/TMM.2025.3535363</a>
+          </li>
 
-        <li>
-          Xu, C., <strong>Zhou, J.</strong>, Cai, W., Jiang, Y., Li, Y., & Liu, Y. (2020). Robust 3D Hand Detection from a Single RGB-D Image in
-          Unconstrained Environments. <em>Sensors</em>, 20(21), 6360. <a href="https://doi.org/10.3390/s20216360">DOI: 10.3390/s20216360</a>
-        </li>
-      </ol>
+          <li>
+            Xu, C., <strong>Zhou, J.</strong>, Cai, W., Jiang, Y., Li, Y., & Liu, Y. (2020). Robust 3D Hand Detection from a Single RGB-D Image in
+            Unconstrained Environments. <em>Sensors</em>, 20(21), 6360. <a href="https://doi.org/10.3390/s20216360">DOI: 10.3390/s20216360</a>
+          </li>
+        </ol>
+      </div>
     {% endif %}
 
     <!-- Social icons are now displayed in profile section above -->
