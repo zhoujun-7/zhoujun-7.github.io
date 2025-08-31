@@ -9,7 +9,35 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "books-the-godfather",
+  },{id: "nav-jun-zhou",
+          title: "Jun Zhou",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/";
+          },
+        },{id: "nav-关于我",
+          title: "关于我",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/about_zh/";
+          },
+        },{id: "dropdown-english",
+              title: "English",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/about/";
+              },
+            },{id: "dropdown-中文",
+              title: "中文",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/about_zh/";
+              },
+            },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
